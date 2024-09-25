@@ -407,19 +407,57 @@ elif temp<10 and humidity<50:
 # else:
 # 	print("Error... enter a number from 1 to 14")
 
-num1 = int(input("Please enter your first number: "))
-num2 = int(input("Please eneter your second number: "))
-operation = str(input("Select one of the following options: \n Enter A for Multiplication: \n Enter B for Division:  \n Enter C for Addition: \n Enter D for Subtraction: \n Enter E for Remainder Division: \n "))
+# num1 = int(input("Please enter your first number: "))
+# num2 = int(input("Please eneter your second number: "))
+# operation = str(input("Select one of the following options: \n Enter A for Multiplication: \n Enter B for Division:  \n Enter C for Addition: \n Enter D for Subtraction: \n Enter E for Remainder Division: \n "))
 
-if operation == ("A"):
-  print("The result of multiplication between both numbers is... ", num1 * num2)
-elif operation == ("B"):
-  print("The result of division between both numbers is... ", num1 / num2)
-elif operation == ("C"):
-  print("The sum of both numbers is... ", num1 + num2)
-elif operation == ("D"):
-  print("The difference between both numbers is... ", num1 - num2)
-elif operation == ("E"):
-  print("The result of remainder division between both numbers is... ", num1 % num2)
-else:
-  print("Error... You haven't chosen any of the suitable options. Please restart and try again.")
+# if operation == ("A"):
+#   print("The result of multiplication between both numbers is... ", num1 * num2)
+# elif operation == ("B"):
+#   print("The result of division between both numbers is... ", num1 / num2)
+# elif operation == ("C"):
+#   print("The sum of both numbers is... ", num1 + num2)
+# elif operation == ("D"):
+#   print("The difference between both numbers is... ", num1 - num2)
+# elif operation == ("E"):
+#   print("The result of remainder division between both numbers is... ", num1 % num2)
+# else:
+#   print("Error... You haven't chosen any of the suitable options. Please restart and try again.")
+
+# #displays full name using variables
+# firstname = ("Altaf")
+# lastname = ("Masoud")
+
+# print((firstname+" "+lastname+" ")*3)
+
+'''Maintainable Code: While Loop Indentation
+⭐⭐⭐⭐
+
+Challenge: 
+Write a program that asks for a number and prints all even numbers from 0 to that number (inclusive). 
+Ensure proper indentation for the while loop.
+ 
+ number = int(input("Enter a number: "))i = 0 while i <= number:if i % 2 == 0:print(i)i += 1'''
+
+# number = int(input("Enter a number: "))
+# i = 1
+
+# while i<=number:
+#   if i % 2 == 0:
+#     print(i) 
+#     i+=1
+#   else:
+#     i+=1
+
+'''Factorial: Condition Controlled
+⭐⭐⭐⭐
+
+Challenge: 
+Calculate and print the factorial of a given number.'''
+
+number = int(input("Enter a number: "))
+num = 1
+
+for i in range(number):
+  print(number*num)
+  num+=1
