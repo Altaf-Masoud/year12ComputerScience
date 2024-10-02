@@ -552,11 +552,63 @@ Print the numbers from 1 to 10.'''
 Challenge: 
 Create a program that takes an input number and prints its multiplication table up to 10.'''
 
-number = int(input("Enter a number: "))
+# number = int(input("Enter a number: "))
 
-for i in range(1,11):
-  print(number*i)
+# for i in range(1,11):
+#   print(number*i)
 
 # for i in range(1.11)
 #   print(number * i)
+
+# password = input("Please enter your password: ")
+# correctpass = ("Tues1212")
+
+# if password != correctpass:
+#     for i in range (3, 0 ,-1):
+#       print("Incorrect password "+str(i)+" attempts left.")
+#       password = input("Please enter your password: ")
+#     if password != correctpass:
+#       print("Incorrect password, you have been locked out. Please try again later")
+#     else:
+#       password = True
+# else:
+#   print("Correct password entered. Welcome user.")  
+
+# password = input("Please enter your password: ")
+# correctpass = ("Tues1212")
+
+# while password != correctpass:
+#   print("Incorrect password entered. Please try again.")
+#   password = input("Please enter your password: ")
+  
+# print("Access granted. Correct password entered")
+
+
+# sunshine = 0
+# maxHours = 0
+# minHours = 100
+# totalSunshine = 0
+
+# sunshine = int(input("Input hours of sunshine: "))
+
+# while sunshine ==-1:
+#   sunshine = int(input("Input hours of sunshine: "))
+#   if sunshine > maxHours:
+#     maxHours = sunshine
+#   else:
+#     sunshine = sunshine
+#   if sunshine < minHours:
+#     minHours = sunshine
+#     totalSunshine =  totalSunshine + sunshine
+#     print("Max sunshine hours: ", maxHours)
+#     print("Min sunshine hours: ", minHours)
+#     print("Total sunshine hours: ", totalSunshine)
+#   else:
+#     sunshine = sunshine
+
+# totalSunshine =  totalSunshine + sunshine
+
+# print("Max sunshine hours: ", maxHours)
+# print("Min sunshine hours: ", minHours)
+# print("Total sunshine hours: ", totalSunshine)
 
