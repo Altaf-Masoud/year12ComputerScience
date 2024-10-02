@@ -455,17 +455,17 @@ Ensure proper indentation for the while loop.
 Challenge: 
 Calculate and print the factorial of a given number.'''
 
-number = int(input("Enter a number: "))
-factorial = 1
-i=1
-num = number
+# number = int(input("Enter a number: "))
+# factorial = 1
+# i=1
+# num = number
 
-while number >0:
-   factorial = factorial *i
-   number = number -1
-   i=i+1
+# while number >0:
+#    factorial = factorial *i
+#    number = number -1
+#    i=i+1
 
-print("The factorial of",num, "is",factorial) 
+# print("The factorial of",num, "is",factorial) 
 
 # Python program to find the factorial of a number provided by the user.
 
@@ -473,11 +473,11 @@ print("The factorial of",num, "is",factorial)
 # num = int(input("Enter a number: "))
 
 # # To take input from the user
-# #num = int(input("Enter a number: "))
+# num = int(input("Enter a number: "))
 
 # factorial = 1
 
-# # check if the number is negative, positive or zero
+# check if the number is negative, positive or zero
 # if num < 0:
 #    print("Sorry, factorial does not exist for negative numbers")
 # elif num == 0:
@@ -486,3 +486,77 @@ print("The factorial of",num, "is",factorial)
 #    for i in range(1,num + 1):
 #        factorial = factorial*i
 #    print("The factorial of",num,"is",factorial) 
+
+# nsweets = int(input("Enter a number of sweets: "))
+# nbag = int(input("Enter a number of bags: "))
+# sweetsratio = nsweets-nbag
+
+# if sweetsratio %2 == 0:
+#   print("Possible")
+# else:
+#   print("Impossible")
+
+# nsweets = int(input("Enter a number of sweets: "))
+# nbag = int(input("Enter a number of bags: "))
+
+# if nsweets %2 ==0
+#   print("Possible")
+# else:
+#   print("Impossible")
+
+'''Maintainable Code: Comments: Inline - conditional loop
+⭐⭐⭐
+
+Challenge: 
+convert this code to python
+ 
+ add inline comments to explain what is happening
+ 
+ i = 0
+ while i < 5
+  output(i)
+  i = i + 1'''
+  
+# i = 0
+# while i<5: #i has to be lower than 5 for the condition
+#   print(i) # prints i from 0-4
+#   i+=1 # renews the variable of i making it i+1
+
+'''Comments: Inline - Nested For Loops
+⭐⭐⭐
+
+Challenge: 
+convert this code to python
+ 
+ add inline comments to explain what is happening
+ for i = 1 to 3
+  for j = 1 to 2
+  output(i * j)'''
+  
+# for i in range (1,4):
+#   for j in range (1,3):
+#     print(str(i)+"*"+str(j)+" = "+str(i*j))
+
+'''Print Numbers: Count Controlled
+⭐⭐⭐
+
+Challenge: 
+Print the numbers from 1 to 10.'''
+
+# for i in range (1,11):
+#   print(i)
+
+'''Multiplication Table: Count Controlled
+⭐⭐⭐
+
+Challenge: 
+Create a program that takes an input number and prints its multiplication table up to 10.'''
+
+number = int(input("Enter a number: "))
+
+for i in range(1,11):
+  print(number*i)
+
+# for i in range(1.11)
+#   print(number * i)
+
