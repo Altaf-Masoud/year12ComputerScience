@@ -612,3 +612,22 @@ Create a program that takes an input number and prints its multiplication table 
 # print("Min sunshine hours: ", minHours)
 # print("Total sunshine hours: ", totalSunshine)
 
+# for i in range (10, 0, -1):
+#   print(i)
+
+# i = 10
+
+# while i>=0:
+#   print(i)
+#   i = i-1
+
+'oddeven checker'
+
+def oddeven(number):
+    if number % 2 == 0:
+        return True 
+    else:
+        return False
+        
+if oddeven(12): 
+    print("success")
