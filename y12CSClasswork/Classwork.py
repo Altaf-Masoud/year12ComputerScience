@@ -623,11 +623,20 @@ Create a program that takes an input number and prints its multiplication table 
 
 'oddeven checker'
 
-def oddeven(number):
-    if number % 2 == 0:
-        return True 
-    else:
-        return False
+# def oddeven(number):
+#     if number % 2 == 0:
+#         return True 
+#     else:
+#         return False
         
-if oddeven(12): 
-    print("success")
+# if oddeven(12): 
+#     print("success")
+
+# # input name
+# name = str(input("What is your name: "))
+# # open text file (creates the file)
+# namesFile = open("namesfile.txt", "a")
+# # adds information to the file
+# namesFile.write(name)
+# # closes the file
+# namesFile.close()
