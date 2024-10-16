@@ -640,3 +640,14 @@ Create a program that takes an input number and prints its multiplication table 
 # namesFile.write(name)
 # # closes the file
 # namesFile.close()
+
+# number = int(input("Enter a number: "))
+
+# def calc(n):
+#   if n == 0:
+#     factorial = 1
+#   else:
+#     factorial = n* calc(n-1)
+#   return(factorial)
+
+# print(calc(number))
