@@ -651,3 +651,35 @@ Create a program that takes an input number and prints its multiplication table 
 #   return(factorial)
 
 # print(calc(number))
+
+# def calcSum(n):
+#   if n>0:
+#     n=n+calcSum(n-1)
+#   return n
+
+# print(calcSum(5))
+
+# num=10
+# total = 0
+# while num>0:
+#   total = total + num
+#   num = num-1
+# print(total)
+
+# def addone(n):
+#   if n<4:
+#     print(n)
+#     addone(n+1)
+#   else:
+#     print(n)
+    
+# addone(1)
+
+# def sumEven(n):
+#   if n>0:
+#     n += sumEven(n-2)
+  
+#   return n
+   
+# print(sumEven(12))
+
