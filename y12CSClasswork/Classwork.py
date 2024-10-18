@@ -683,3 +683,34 @@ Create a program that takes an input number and prints its multiplication table 
    
 # print(sumEven(12))
 
+# import time
+
+# starttime1 = time.clock()
+    
+# def fib(n):
+#   if  n <= 1:
+#     return n
+#   else:
+#     return fib(n-1) + fib(n-2)
+
+# print(fib(5))
+
+# endtime1 = time.clock()
+
+# import time
+
+# starttime1 = time.clock()
+
+# import time
+
+# number = int(input("Enter a number: "))
+
+# def fib2(n):
+#   fibNumbers = [0,1]
+#   for i in range (2, n):
+#     fibNumbers.append(fibNumbers[i-1] + fibNumbers[i-2])
+#   return fibNumbers
+
+# print(fib2(number))
+
+# endtime1 = time.clock()
