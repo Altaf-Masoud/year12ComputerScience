@@ -714,3 +714,10 @@ Create a program that takes an input number and prints its multiplication table 
 # print(fib2(number))
 
 # endtime1 = time.clock()
+
+# number = 0
+
+# while number<=10:
+#   for i in range(0,101):
+#     print("Question",str(number)+"."+str(i))
+#   number += 1 
